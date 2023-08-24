@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.3.4/mod.ts",
+    "hono:cors": "https://deno.land/x/hono@v3.3.4/middleware.ts",
+    "serpapi": "https://deno.land/x/serpapi@2.0.0/mod.ts",
+    "dotenv": "https://deno.land/std@0.199.0/dotenv/load.ts"
+  },
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --allow-read mod.ts"
+  }
+}
