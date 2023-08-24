@@ -16,7 +16,7 @@ app.get('/search', async (c) => {
   const { q } = c.req.query();
   const response = await getJson({
     q,
-    engine: 'google_image',
+    engine: 'google_images',
     api_key: API_KEY,
   });
 
